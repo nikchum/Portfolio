@@ -1,0 +1,37 @@
+/* Footer */
+
+.footer {
+	margin-top: auto;
+	padding: 60px 0 50px;
+	background-color: var(--footer-bg);
+	color: var(--footer-text);
+}
+
+.footer__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 27px;
+}
+
+.social {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+}
+
+.social__item {
+	transition: all 200ms;
+}
+
+.social__item:hover {
+	box-shadow: var(--box-shadow-link);
+}
+
+.copyright {
+	font-size: 16px;
+}
+
+.copyright p + p {
+	margin-top: 0.5em;
+}

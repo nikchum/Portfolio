@@ -1,0 +1,20 @@
+export const skills = {
+  front: [
+    "TypeScript",
+    "JavaScript",
+    "ReactJS",
+    "Redux",
+    "HTML",
+    "CSS",
+    "SASS",
+    "StyledComponents",
+    "TailwindCSS",
+    "REST API",
+    "GIT",
+    "NPM",
+    "Yarn",
+    "WebPack / Parcel / Gulp",
+  ],
+  back: ["NodeJS", "Express"],
+  database: ["MongoDB", "Mongoose"],
+};

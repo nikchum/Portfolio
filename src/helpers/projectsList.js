@@ -24,12 +24,30 @@ import project08Big from "./../img/projects/08-big.jpg";
 
 const projects = [
   {
+    title: "Web site - WorldExplorer",
+    img: project08,
+    imgBig: project08Big,
+    skills: "TypeScript, ReactJS, Styled-components, Adaptive design",
+    gitHubLink: "https://github.com/nikchum/WorldExplorer",
+    siteLink: "https://worldexplorer.netlify.app/",
+    description: "Web site for finding countries and their neighbors",
+  },
+  {
+    title: "Web site - DevFinder",
+    img: project08,
+    imgBig: project08Big,
+    skills: "TypeScript, ReactJS, SCSS, Adaptive design",
+    gitHubLink: "https://github.com/nikchum/DevFinder",
+    siteLink: "https://site-devfinder.netlify.app/",
+    description:
+      "Project to search for users on github and display information about them.",
+  },
+  {
     title: "Landing - GL Media",
     img: project08,
     imgBig: project08Big,
-    skills: "NextJS, SCSS, HTML, Adaptive design",
-    gitHubLink: "https://github.com",
-    siteLink: "https://github.com",
+    skills: "NextJS, SCSS, Adaptive design",
+    siteLink: "https://glmedia.vercel.app/",
     description:
       "Landing page for a company that provides SMM marketing services",
   },
@@ -37,9 +55,9 @@ const projects = [
     title: "Landing - Balloon",
     img: project07,
     imgBig: project07Big,
-    skills: "SCSS, JavaScript, HTML, Adaptive design",
-    gitHubLink: "https://github.com",
-    siteLink: "https://github.com",
+    skills: "SCSS, JavaScript, HTML, Gulp, Adaptive design",
+    gitHubLink: "https://github.com/nikchum/balloons",
+    siteLink: "https://balloon-tours.netlify.app/",
     description:
       "Landing page for a travel company that organizes balloon tours",
   },
@@ -47,10 +65,10 @@ const projects = [
     title: "Blog - AutoBlog",
     img: project06,
     imgBig: project06Big,
-    skills:
-      "ReactJS, NodeJS, Redux, MongoDB, Express, HTML, SCSS modules, WebPack, Adaptive design",
-    gitHubLink: "https://github.com",
-    siteLink: "https://github.com",
+    skills: "ReactJS, NodeJS, Redux, MongoDB, Express, TailwindCSS, WebPack",
+    gitHubLink: "https://github.com/nikchum/Autoblog-frontend",
+    gitHubLinkBack: "https://github.com/nikchum/Autoblog-backend",
+    siteLink: "https://nikchum.github.io/Autoblog-frontend/",
     description:
       "Blog where you can view, add, edit and delete entries, as well as leave comments on entries",
   },
@@ -59,8 +77,8 @@ const projects = [
     img: project05,
     imgBig: project05Big,
     skills:
-      "ReactJS, NodeJS, Redux, MongoDB, Express, HTML, SCSS modules, WebPack, Adaptive design",
-    siteLink: "https://github.com",
+      "ReactJS, NodeJS, Redux, MongoDB, Express, SCSS modules, WebPack, Adaptive design",
+    siteLink: "https://care-your-pets.netlify.app/",
     description:
       "Web portal about pets: contains pages of news, partners, pets, divided into categories, as well as a personal account of a registered user with the ability to add information about themselves and pets",
   },
@@ -68,9 +86,9 @@ const projects = [
     title: "Web site - Moviegan",
     img: project04,
     imgBig: project04Big,
-    skills: "ReactJS, HTML, CSS modules, WebPack, Adaptive design",
-    gitHubLink: "https://github.com",
-    siteLink: "https://github.com",
+    skills: "ReactJS, CSS modules, WebPack, Adaptive design",
+    gitHubLink: "https://github.com/nikchum/Moviegan",
+    siteLink: "https://nikchum.github.io/Moviegan/",
     description:
       "Web site to search for movies and detailed descriptions with actors and reviews",
   },
@@ -79,8 +97,8 @@ const projects = [
     img: project03,
     imgBig: project03Big,
     skills: "HTML, SCSS, JavaScript, Parcel, Adaptive design",
-    gitHubLink: "https://github.com",
-    siteLink: "https://github.com",
+    gitHubLink: "https://github.com/nikchum/TopMovies",
+    siteLink: "https://nikchum.github.io/TopMovies/",
     description:
       "Web site for searching for movies with the ability to add to the queue or to watched through a personal account",
   },
@@ -89,8 +107,8 @@ const projects = [
     img: project02,
     imgBig: project02Big,
     skills: "HTML, SCSS, JavaScript, Parcel, Adaptive design",
-    gitHubLink: "https://github.com",
-    siteLink: "https://github.com",
+    gitHubLink: "https://github.com/nikchum/Ice-Cream",
+    siteLink: "https://nikchum.github.io/Ice-Cream/index.html",
     description: "Landing page for an ice cream company",
   },
   {
@@ -98,8 +116,8 @@ const projects = [
     img: project01,
     imgBig: project01Big,
     skills: "HTML, SCSS, JavaScript, Adaptive design",
-    gitHubLink: "https://github.com",
-    siteLink: "https://github.com",
+    gitHubLink: "https://github.com/nikchum/WebStudio",
+    siteLink: "https://site-web-studio.netlify.app/",
     description: "Web site for a web development company",
   },
 ];

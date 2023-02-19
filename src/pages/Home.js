@@ -1,4 +1,5 @@
 import Header from "./../components/header/Header";
+import { skills } from "../helpers/skillsList";
 
 const Home = () => {
   return (
@@ -9,18 +10,33 @@ const Home = () => {
           <ul className="content-list">
             <li className="content-list__item">
               <h2 className="title-2 title-2_box-shadow">Frontend</h2>
-              <p>
-                JavaScript, ReactJS, Redux, HTML, CSS, SASS, TailwindCSS, NPM,
-                Yarn, StyledComponents, REST, API, GIT, WebPack/Parcel/Gulp
-              </p>
+              <ul className="skills">
+                {skills.front.map((skill, i) => (
+                  <li className="skills__item" key={i}>
+                    {skill}
+                  </li>
+                ))}
+              </ul>
             </li>
             <li className="content-list__item">
               <h2 className="title-2 title-2_box-shadow">Backend</h2>
-              <p>NodeJS, Express</p>
+              <ul className="skills">
+                {skills.back.map((skill, i) => (
+                  <li className="skills__item" key={i}>
+                    {skill}
+                  </li>
+                ))}
+              </ul>
             </li>
             <li className="content-list__item">
               <h2 className="title-2 title-2_box-shadow">Database</h2>
-              <p>MongoDB, Mongoose</p>
+              <ul className="skills">
+                {skills.database.map((skill, i) => (
+                  <li className="skills__item" key={i}>
+                    {skill}
+                  </li>
+                ))}
+              </ul>
             </li>
           </ul>
         </div>

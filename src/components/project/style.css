@@ -1,5 +1,5 @@
 .project {
-	max-width: 370px;
+	width: 340px;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
@@ -13,7 +13,8 @@ box-shadow: var(--box-shadow-link);
 
 .project__img {
 	border-radius: 10px;
-	max-height: 277px;
+	width: 100%;
+	max-height: 260px;
 }
 
 .project__title {

@@ -1,3 +1,4 @@
+import CV from "../../files/nikolay_chumak.pdf";
 import "./style.css";
 
 const Header = () => {
@@ -13,9 +14,19 @@ const Header = () => {
         <div className="header__text">
           <p>with a passion for learning and coding.</p>
         </div>
-        <a href="#!" className="btn">
-          Download CV
-        </a>
+        <div className="header__download-box">
+          <a href={CV} className="btn" download>
+            Download CV
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1VYI8wfiU72LLwhfqB8LHbArSD5I8SY1p/view?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+            className="btn"
+          >
+            Link to CV
+          </a>
+        </div>
       </div>
     </header>
   );

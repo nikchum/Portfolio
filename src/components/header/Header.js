@@ -19,7 +19,7 @@ const Header = () => {
             Download CV
           </a>
           <a
-            href="https://drive.google.com/file/d/1VYI8wfiU72LLwhfqB8LHbArSD5I8SY1p/view?usp=share_link"
+            href="https://drive.google.com/file/d/1aM_4Ux1QgoSCO7Sjex1N2DrNVcDcYqU3/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
             className="btn"

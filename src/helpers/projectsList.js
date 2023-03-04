@@ -22,11 +22,17 @@ import project07Big from "./../img/projects/07-big.jpg";
 import project08 from "./../img/projects/08.jpg";
 import project08Big from "./../img/projects/08-big.jpg";
 
+import project09 from "./../img/projects/09.jpg";
+import project09Big from "./../img/projects/09-big.jpg";
+
+import project10 from "./../img/projects/10.jpg";
+import project10Big from "./../img/projects/10-big.jpg";
+
 const projects = [
   {
     title: "Web site - WorldExplorer",
-    img: project08,
-    imgBig: project08Big,
+    img: project10,
+    imgBig: project10Big,
     skills: "TypeScript, ReactJS, Styled-components, Adaptive design",
     gitHubLink: "https://github.com/nikchum/WorldExplorer",
     siteLink: "https://worldexplorer.netlify.app/",
@@ -34,8 +40,8 @@ const projects = [
   },
   {
     title: "Web site - DevFinder",
-    img: project08,
-    imgBig: project08Big,
+    img: project09,
+    imgBig: project09Big,
     skills: "TypeScript, ReactJS, SCSS, Adaptive design",
     gitHubLink: "https://github.com/nikchum/DevFinder",
     siteLink: "https://site-devfinder.netlify.app/",
@@ -47,7 +53,7 @@ const projects = [
     img: project08,
     imgBig: project08Big,
     skills: "NextJS, SCSS, Adaptive design",
-    siteLink: "https://glmedia.vercel.app/",
+    siteLink: "https://www.glmedia.org/",
     description:
       "Landing page for a company that provides SMM marketing services",
   },

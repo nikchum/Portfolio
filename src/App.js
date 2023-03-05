@@ -14,7 +14,7 @@ import ScrollToTop from "./utils/scrollToTop";
 function App() {
   return (
     <div className="App">
-      <Router basename="/nikolay-chumak.netlify.app">
+      <Router>
         <ScrollToTop />
         <Navbar />
         <Routes>

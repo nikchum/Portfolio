@@ -20,8 +20,6 @@ const types = {
 };
 
 const BtnGitHub = ({ link, type = "gitHubFront" }) => {
-  console.log(type);
-  console.log(types[type]);
   return (
     <a href={link} target="_blank" rel="noreferrer" className="btn-outline">
       <img src={types[type].img} alt={types[type].text} />
